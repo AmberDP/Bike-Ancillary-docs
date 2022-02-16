@@ -1,33 +1,22 @@
-# bike-ancillary
+# Bike Ancillary documentation overview
 
-## Flow diagram
-Start with our [flow diagram](https://drive.google.com/file/d/1tiLWoqP_GxfrIRk0ueaLKTCn-qOGUBZm/view?usp=sharing) to understand how you have to integrate our API 
+## 1. Flow diagram
+Start with our [flow diagram](https://drive.google.com/file/d/1tiLWoqP_GxfrIRk0ueaLKTCn-qOGUBZm/view?usp=sharing) to understand how you have to integrate our API.
+![BIKE Schema Ancillary API_20220214](https://user-images.githubusercontent.com/99665011/154225608-74b5c6e2-c993-4778-a665-59b853ea1bfa.png)
 
-## Backend documentation
-We created a [postman API](https://documenter.getpostman.com/view/3410894/UVRBmkmm) collection that you can copy and play with.
+## 2. Financial flow
+Here you can find an example of how the [financial flow](https://drive.google.com/file/d/18heqN0fItB3aWGxlLOC0XzuPPWQjN2SU/view?usp=sharing) will look like
+![Financial_flow drawio](https://user-images.githubusercontent.com/99665011/154225476-c84e7beb-9217-43be-9e2b-a8e27a175459.png)
 
+## 3. Backend guide
+We created a [Postman API](https://documenter.getpostman.com/view/3410894/UVRBmkmm) collection that you can copy and play with. The goal of this documentation is to give you a clear guide that can be followed when integrating the Qover API. 
 
-## Auto-generated product page 
-Product page can be a pain to integrate on your website as you need to create one product page per country and languages. That's why we developed the 3 ways to easily integrate a product page auto generate by Qover on your website [edit here in jsfiddle](https://jsfiddle.net/harryqover/bx5go9fq/latest)
-### popup product page [edit here in jsfiddle](https://jsfiddle.net/harryqover/bx5go9fq/latest)
-```html
-<p>Keep your bike in tune, protect it against theft, and get help whenever and wherever you need it. <a onclick="showModalPopUp()">Learn more about our insurance.</a></p>
-<script>
-  var popUpObj;
-function showModalPopUp() {
-  popUpObj = window.open("https://bike.qoverme.com/widget/product-page?lang=en&key=pk_F2654BC3CEC684D9ED1E&brand=Venilu&depreciation=false&damageDeductible=DAMAGE_DEDUCTIBLE_STANDARD_10PC&theftDeductible=THEFT_DEDUCTIBLE_STANDARD_10PC&country=BE", "ModalPopUp", "width=400," + "height=900");
-  popUpObj.focus();
-  LoadModalDiv();
-}
-</script>
-```
+Here are the sandbox keys that can be used for testing:
+* **publicKey**: pk_1FAD97C4105B6A2B86EF
+* **secretKey**: sk_FD5104AB36870002BCFE 
 
+## 4. Frontend guide
+[This guide](https://drive.google.com/file/d/18B_3NknhP_Z00uEzdHlv5f4V-HVwzry3/view?usp=sharing) gives you some more context when planning your integration and gives guidance on the frontend implementations that need to be done. 
 
-### redirection link
-```html
-<a href="https://bike.qoverme.com/widget/product-page?lang=en&key=pk_F2654BC3CEC684D9ED1E&depreciation=false&damageDeductible=DAMAGE_DEDUCTIBLE_STANDARD_10PC&theftDeductible=THEFT_DEDUCTIBLE_STANDARD_10PC&country=BE" target="_blank" class="cardLink">Insurance Belgium</a>
-```
-### iframe
-```html
-<iframe src="https://bike.qoverme.com/widget/product-page?lang=en&key=pk_F2654BC3CEC684D9ED1E&countryDefault=BE" title="description" width="400" height="800"></iframe>
-```
+### a. Auto-generated product page ###
+In the Frontend documentation you will find some explanation on how to build a product page. A **product page** is a **standalone website page** entirely dedicated to the insurance product, it summarizes the product and serves as an FAQ for your customers. It is a **legal requirement** and it is **mandatory** to have this page per country and language. As this product page can be a pain to integrate, we developed **3 ways to easily integrate an auto-generated product page by Qover on your website**. You can find it [here](https://jsfiddle.net/harryqover/bx5go9fq/latest) in jsfiddle.
