@@ -1,5 +1,5 @@
-# Bike Ancillary documentation overview 
-is it working ?
+# Bike Ancillary - Documentation Overview 
+Welcome to this overview page where you can find all the links to the documents needed for the integration of our API.
 
 ## 1. Flow diagram
 Start with our [flow diagram](https://drive.google.com/file/d/1tiLWoqP_GxfrIRk0ueaLKTCn-qOGUBZm/view?usp=sharing) to understand how you have to integrate our API.
@@ -21,3 +21,8 @@ Here are the sandbox keys that can be used for testing:
 
 ### a. Auto-generated product page ###
 In the Frontend documentation you will find some explanation on how to build a product page. A **product page** is a **standalone website page** entirely dedicated to the insurance product, it summarizes the product and serves as an FAQ for your customers. It is a **legal requirement** and it is **mandatory** to have this page per country and language. As this product page can be a pain to integrate, we developed **3 ways to easily integrate an auto-generated product page by Qover on your website**. You can find it [here](https://jsfiddle.net/harryqover/bx5go9fq/latest) in jsfiddle.
+
+## 5. Contact details
+Please do not hesitate to contact us if anything is unclear on the below email addresses:
+* For **commercial questions** &rarr; ines@qover.com
+* For **technical questions** &rarr; bike-pm@qover.com
