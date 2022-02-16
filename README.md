@@ -1,6 +1,8 @@
 # Bike Ancillary - Documentation Overview 
 Welcome to this overview page where you can find all the links to the documents needed for the integration of our API.
 
+![Qover logo](https://storage.googleapis.com/qover-assets/pdf-api/logo-qover_gradient.svg)
+
 ## 1. Flow diagram
 Start with our [flow diagram](https://drive.google.com/file/d/1TQQvkcbywUfiTB0q_S9hWI2YJQkGfPK0/view?usp=sharing) to understand how you have to integrate our API.
 ![BIKE Schema Ancillary API_20220214](https://user-images.githubusercontent.com/99665011/154225608-74b5c6e2-c993-4778-a665-59b853ea1bfa.png)
