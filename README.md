@@ -14,8 +14,23 @@ Start with our [flow diagram](https://drive.google.com/file/d/1TQQvkcbywUfiTB0q_
 ![BIKE Schema Ancillary API_20220214](https://user-images.githubusercontent.com/99665011/154225608-74b5c6e2-c993-4778-a665-59b853ea1bfa.png)
 
 ## 3. Financial flow
-Here you can find an example of how the [financial flow](https://drive.google.com/file/d/18heqN0fItB3aWGxlLOC0XzuPPWQjN2SU/view?usp=sharing) will look like
+Here you can find an example of how the [financial flow](https://drive.google.com/file/d/18heqN0fItB3aWGxlLOC0XzuPPWQjN2SU/view?usp=sharing) will look like.
 ![Financial_flow drawio](https://user-images.githubusercontent.com/99665011/154225476-c84e7beb-9217-43be-9e2b-a8e27a175459.png)
+
+(!) No **VAT** should be accounted for the bike insurance product. 
+
+```Note: the insurance tax is already included in the insurance premium paid by your end customer and Qover makes sure to pay these out to the concerned, local institutions on your behalf. You therefore do not need to register yourself to or for anything.```
+
+The **payment** of the insurance happens on your end. This means that a consumer will buy its bike + bike insurance in one go and will proceed as per usual to your checkout page with your installed payment methods (split payment methods are allowed to be used). 
+Qover will provide a monthly reporting of the following:
+* An invoice that you will need to pay (i.e. "reimburse") which equals the total amount of insurance contracts (premiums) sold in a given month [(Example)](https://drive.google.com/open?id=1NbGCW4sYMNfJJGnR-M4OJa-FhSLCIzl9&authuser=ines%40qover.com&usp=drive_fs). 
+
+```Note: it is possible to automate this with a SEPA mandate - please contact your commercial SPOC should you wish to put this into place.```
+* A "bordereaux" which is an overview of all sold insurance contracts and the commission you are entitled to receive for those (if applicable) in a given month [(Example)](https://drive.google.com/open?id=11MithxVnISrYOc0x5QdVk-NxBmpGstnf&authuser=ines%40qover.com&usp=drive_fs).
+
+```Note: reverse billing is an option if you prefer to do so - please contact your commercial SPOC should you wish to put this into place.```
+
+Since you **collect money on behalf of a third party (i.e. Qover)**, you should book it from an **accounting** point of view as a debt because you collect money that eventually doesn't belong to your company. This debt is then cleared as soon as you pay the [invoice from Qover](https://drive.google.com/file/d/1NbGCW4sYMNfJJGnR-M4OJa-FhSLCIzl9/view?usp=sharing).
 
 ## 4. Backend guide
 We created a [Postman API](https://documenter.getpostman.com/view/3410894/UVRBmkmm) collection that you can copy and play with. The goal of this documentation is to give you a clear guide that can be followed when integrating the Qover API. 
