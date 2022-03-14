@@ -39,7 +39,10 @@ Here are the **sandbox keys** that can be used for testing:
 * **publicKey**: pk_1FAD97C4105B6A2B86EF
 * **secretKey**: sk_FD5104AB36870002BCFE 
 
-## 5. Contact details
+## 5. Post go-live
+Information for your customer care team can be found in [this](https://storage.googleapis.com/qover-assets/documents/bike/Qover-bike-explanation_Ancillary-customer-care-team.pdf) documentation
+
+## 6. Contact details
 Please do not hesitate to contact us if anything is unclear on the below email addresses:
 * For **commercial questions** &rarr; ines@qover.com
 * For **technical questions** &rarr; bike-pm@qover.com
