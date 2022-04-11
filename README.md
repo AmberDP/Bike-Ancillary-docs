@@ -4,7 +4,7 @@ Welcome to this overview page where you can find all the links to the documents 
 ![Qover logo](https://storage.googleapis.com/qover-assets/pdf-api/logo-qover_gradient.svg)
 
 ## 1. Frontend guide
-[This guide](https://drive.google.com/file/d/18B_3NknhP_Z00uEzdHlv5f4V-HVwzry3/view?usp=sharing) gives you some more context when planning your integration and gives guidance on the frontend implementations that need to be done. 
+[This guide](https://drive.google.com/file/d/1Gh9aNehTwwr1rcQd1zRC2fM3z8cRejPY/view?usp=sharing) gives you some more context when planning your integration and gives guidance on the frontend implementations that need to be done. 
 
 ### a. Auto-generated product page ###
 In the Frontend documentation you will find some explanation on how to build a product page. A **product page** is a **standalone website page** entirely dedicated to the insurance product, it summarizes the product and serves as a FAQ for your customers. It is a **legal requirement** and it is **mandatory** to have this page per country and language. As this product page can be a pain to integrate, we developed **3 ways to easily integrate an auto-generated product page by Qover on your website**. You can find it [here](https://jsfiddle.net/harryqover/bx5go9fq/latest) in jsfiddle.
