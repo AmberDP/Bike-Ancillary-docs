@@ -36,17 +36,21 @@ Since you **collect money on behalf of a third party (i.e. Qover)**, you should 
 If you want to know how the voucher management is done, you can check it out [here](https://drive.google.com/file/d/1vX7mncK3GlvDRhYLRBvN5MEW7jjQ6yT_/view?usp=sharing).
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/99665011/169759285-efa900c7-3ac2-40b7-a1b7-7f29524f72be.png">
 
-## 5. Backend guide
+## 5. Claims process
+Below you see the overview of the different steps of our claims process and how claims are handled, check it out [here](https://drive.google.com/file/d/1sCiUWn5UaaUIk-pvFmAwNxFaMrRx2UkM/view?usp=sharing).
+<img width="1416" alt="image" src="https://user-images.githubusercontent.com/99665011/174753768-87a5c8e2-0774-4ea7-9c4a-4d59cea1654d.png">
+
+## 6. Backend guide
 We created a [Postman API](https://documenter.getpostman.com/view/3410894/UVRBmkmm) collection that you can copy and play with. The goal of this documentation is to give you a clear guide that can be followed when integrating the Qover API. 
 
 Here are the **sandbox keys** that can be used for testing:
 * **publicKey**: pk_1FAD97C4105B6A2B86EF
 * **secretKey**: sk_FD5104AB36870002BCFE 
 
-## 6. Post go-live
+## 7. Post go-live
 Information for your customer care team can be found in [this](https://storage.googleapis.com/qover-assets/documents/bike/Qover-bike-explanation_Ancillary-customer-care-team.pdf) documentation
 
-## 7. Contact details
+## 8. Contact details
 Please do not hesitate to contact us if anything is unclear on the below email addresses:
 * For **commercial questions** &rarr; ines@qover.com
 * For **technical questions** &rarr; bike-pm@qover.com
