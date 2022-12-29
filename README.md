@@ -2,7 +2,6 @@
 Welcome to this overview page where you can find all the links to the documents needed for the integration of our API.
 
 ![Qover logo](https://storage.googleapis.com/qover-assets/guidelines/Logo/logo-qover.svg)
-![Qover logo](https://storage.googleapis.com/qover-assets/guidelines/Logo/logo-qover.svg)
 
 ## 1. Frontend guide
 [This guide](https://drive.google.com/file/d/1Jws1vasDoXREzpCRNbF7g4bcR-NR2EdB/view?usp=sharing) gives you some more context when planning your integration and gives guidance on the frontend implementations that need to be done. 
