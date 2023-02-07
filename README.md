@@ -52,5 +52,5 @@ Information for your customer care team can be found in [this](https://storage.g
 
 ## 8. Contact details
 Please do not hesitate to contact us if anything is unclear on the below email addresses:
-* For **commercial questions** &rarr; ines@qover.com
-* For **technical questions** &rarr; bike-pm@qover.com
+* For **commercial questions** &rarr; josephine.misson@qover.com
+* For **technical questions** &rarr; product-request@qover.com
