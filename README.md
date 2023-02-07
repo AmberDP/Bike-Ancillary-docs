@@ -43,7 +43,7 @@ Below you see the overview of the different steps of our claims process and how 
 ## 6. Backend guide
 We created a [Postman API](https://documenter.getpostman.com/view/3410894/UVRBmkmm) collection that you can copy and play with. The goal of this documentation is to give you a clear guide that can be followed when integrating the Qover API. 
 
-Here are the **sandbox keys** that can be used for testing:
+Here are the generic **Qover sandbox keys** that can be used for testing if you don't have your own keys:
 * **publicKey**: pk_1FAD97C4105B6A2B86EF
 * **secretKey**: sk_FD5104AB36870002BCFE 
 
