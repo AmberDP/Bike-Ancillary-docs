@@ -44,8 +44,8 @@ Below you see the overview of the different steps of our claims process and how 
 We created a [Postman API](https://documenter.getpostman.com/view/3410894/UVRBmkmm) collection that you can copy and play with. The goal of this documentation is to give you a clear guide that can be followed when integrating the Qover API. 
 
 Here are the generic **Qover sandbox keys** that can be used for testing if you don't have your own keys:
-* **publicKey**: pk_1FAD97C4105B6A2B86EF
-* **secretKey**: sk_FD5104AB36870002BCFE 
+* **publicKey**: pk_*****
+* **secretKey**: sk_*****
 
 ## 7. Post go-live
 Information for your customer care team can be found in [this](https://storage.googleapis.com/qover-assets/documents/bike/Qover-bike-explanation_Ancillary-customer-care-team.pdf) documentation
